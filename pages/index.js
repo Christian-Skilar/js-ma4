@@ -7,7 +7,7 @@ export default function Index() {
 	
 	return (
 		<Layout>
-			<Head title="Next Intro" />
+			<Head title="Home" />
 			<Heading heading="My Home page" />
 
 			<Link href="/results">Results</Link>
