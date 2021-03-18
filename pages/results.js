@@ -14,8 +14,8 @@ export default function Results(props) {
 
 			<div className="cards">
 			{props.character.map((person) => {
-				return <div> 
-				<h3 key={person.id}>{person.name}</h3>
+				return <div key={person.id}> 
+				<h3>{person.name}</h3>
 				<Image src={person.image} width="300" height="300" alt="Character image" className="images"></Image>
 				</div>
 			})}
@@ -24,9 +24,6 @@ export default function Results(props) {
 		</Layout>
 	);
 }
-
-// <Image src={person.image} width="200" height="100" alt="My image"></Image>
-
 
 export async function getStaticProps() {
 
