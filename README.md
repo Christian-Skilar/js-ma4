@@ -1,30 +1,5 @@
 Deployed Page: https://js-ma4.vercel.app/
 
-# JS Frameworks - Module Assignment 4
-
-# Brief
-
-Create a new app using Create Next App.
-
-You can create an app inside the current folder using:
-
-```
-npx create-next-app .
-```
-
-> If your repo name has a capital letter in it make the folder name all lowercase before running the above command.
-
----
-
-You can use a UI library like React Bootstrap or style it all on your own. The styling is not important for this assignment but every frontend project must always be responsive.
-
-Find a URL that returns multiple results. You can use any URL except the ones used in this week's module.
-
-All UI should be built the "Next.js" way. Don't, for example, use React Router.
-
----
-
-## Level 1
 
 Create these 3 routes, named exactly:
 
@@ -54,11 +29,4 @@ If one of the properties you display is an image source, use Next's `Image` comp
 This page should display a heading and lorem text.
 
 
----
-
-## Deployment
-
-Deploy your site to either Vercel or Netlify and place a link to your deployment at the top of the assignment's README.
-
----
 
